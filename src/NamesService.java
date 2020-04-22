@@ -8,6 +8,7 @@ class NamesService {
         for (int i = 0; i < names.length; i++) {
             names[i] = sc.nextLine();
         }
+        sc.close();
         return names;
     }
 
