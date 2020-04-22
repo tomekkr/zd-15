@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 class NamesService {
-    private static Scanner sc = new Scanner(System.in);
 
     public static String[] addNamesToArray() {
+        Scanner sc = new Scanner(System.in);
         String[] names = new String[5];
         for (int i = 0; i < names.length; i++) {
             names[i] = sc.nextLine();
